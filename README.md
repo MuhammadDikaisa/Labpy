@@ -2,90 +2,38 @@
 
 Muhammad Dikaisa- 312210289
 
-Instalasi GIT
+1.  Install git dari web git-scm.com
 
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~
-$ git config --global user.name "Muhammad_Dikaisa"
+<img width="960" alt="Screenshot (3)" src="https://user-images.githubusercontent.com/115516378/195249194-0d49d5df-d66c-4416-aaeb-4add99b3a4f0.png">
+2.  Lakukan Konfigurasi dalam git bash
 
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~
-$ git config --global user.email "muhammadikaisa1@gmail.com"
+![Screenshot (2)](https://user-images.githubusercontent.com/115516378/195249333-4f40623f-a20a-4b3f-82fe-28ec1e0d84ac.png)
+3. Buat folder dan masuk lewat git bash
 
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~
-$ cd Labs_Pemrograman
-bash: cd: Labs_Pemrograman: No such file or directory
+![Screenshot (5)](https://user-images.githubusercontent.com/115516378/195249486-ee29f02a-34d7-4015-9781-7e94631cffcc.png)
+4. Buat repository lokal
 
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~
-$ cd Labs_Pemrograman/
+![Screenshot (6)](https://user-images.githubusercontent.com/115516378/195249681-793b8f6d-f7ae-435b-978b-d978dca61a9d.png)
+5. Buat file abru dalam repository
 
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~/Labs_Pemrograman
-$ mkdir Latihan1
+![Screenshot (7)](https://user-images.githubusercontent.com/115516378/195249900-d469ba7d-20f4-4650-8237-200e3b97410d.png)
+6. Simpan file dalam repository dengan commit
 
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~/Labs_Pemrograman
-$ cd Latihan1
+![Screenshot (8)](https://user-images.githubusercontent.com/115516378/195249967-c0047ac2-cb7b-4fc9-a0b6-088496fe55ee.png)
+7. Masuk ke github.com untuk membuat akun dan membuat reository server
 
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~/Labs_Pemrograman/Latihan1
-$ git init
-Initialized empty Git repository in C:/Users/ASUS/Labs_Pemrograman/Latihan1/.git/
+![Screenshot (9)](https://user-images.githubusercontent.com/115516378/195250058-0ca8bb29-423c-4523-8d00-c7c0eb67e2cd.png)
+![Screenshot (10)](https://user-images.githubusercontent.com/115516378/195250075-86b4312d-d332-40d4-9e2d-e93ab2b0ea9f.png)
 
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~/Labs_Pemrograman/Latihan1 (master)
-$ echo "# Latihan 1" >> README.md
+8. buat repository server
 
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~/Labs_Pemrograman/Latihan1 (master)
-$ git add README.md
-warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+![Screenshot (11)](https://user-images.githubusercontent.com/115516378/195250407-39b4b611-5f7b-449a-ab02-18e479e397f2.png)
+9. Tambahkan remote repository
 
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~/Labs_Pemrograman/Latihan1 (master)
-$ git status
-On branch master
+![Screenshot (12)](https://user-images.githubusercontent.com/115516378/195250814-fff0d921-fec1-4db2-a1ee-9561c96ee722.png)
+10. kirim perubahan ke repository server
 
-No commits yet
-
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-        new file:   README.md
+![Screenshot (13)](https://user-images.githubusercontent.com/115516378/195250893-434c1020-eb53-45be-bfeb-fd9c2701c390.png)
 
 
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~/Labs_Pemrograman/Latihan1 (master)
-$ cd README.md
-bash: cd: README.md: Not a directory
 
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~/Labs_Pemrograman/Latihan1 (master)
-$ nano README.md
-
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~/Labs_Pemrograman/Latihan1 (master)
-$ git commit -m "File Pertama saya"
-[master (root-commit) 1078af6] File Pertama saya
- 1 file changed, 1 insertion(+)
- create mode 100644 README.md
-
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~/Labs_Pemrograman/Latihan1 (master)
-$ git remote add origin https://github.com/MuhammadDikaisa/Labpy
-
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~/Labs_Pemrograman/Latihan1 (master)
-$ git remote add origin https://github.com/MuhammadDikaisa/Labpy.git
-error: remote origin already exists.
-
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~/Labs_Pemrograman/Latihan1 (master)
-$ git push -u origin master
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 237 bytes | 237.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/MuhammadDikaisa/Labpy
- * [new branch]      master -> master
-branch 'master' set up to track 'origin/master'.
-
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~/Labs_Pemrograman/Latihan1 (master)
-$ git clone https://github.com/MuhammadDikaisa/Labpy.git
-Cloning into 'Labpy'...
-remote: Enumerating objects: 3, done.
-remote: Counting objects: 100% (3/3), done.
-remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
-Receiving objects: 100% (3/3), done.
-
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~/Labs_Pemrograman/Latihan1 (master)
-$ nano
-.git/      Labpy/     README.md
-
-ASUS@LAPTOP-GRL9QJ4Q MINGW64 ~/Labs_Pemrograman/Latihan1 (master)
-$ nano README.md
